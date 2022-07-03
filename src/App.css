@@ -1,0 +1,107 @@
+.App {
+  text-align: center;
+}
+body {
+  overflow: hidden;
+  color: rgb(245, 245, 220);
+  font-family: "Rock Salt", cursive;
+  background-image: url("./component/images/background.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+}
+h1 {
+  font-size: 50px;
+}
+@import url("https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap");
+li {
+  font-size: 25px;
+  list-style: none;
+  text-align: left;
+}
+
+li::before {
+  content: "- ";
+}
+
+/* CSS Button */
+.button-52 {
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-52:after {
+  content: "";
+  background-color: #ffe54c;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.button-52:hover:after {
+  top: 0px;
+  left: 0px;
+}
+
+@media (min-width: 768px) {
+  .button-52 {
+    padding: 13px 50px 13px;
+  }
+}
+
+.userInput {
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-right: 50px;
+}
+
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: rgb(245, 245, 220);
+  opacity: 1;
+}
+.scrollable {
+  overflow-y: scroll;
+  height: 449px;
+}
+.scrollable::-webkit-scrollbar {
+  width: 10px;
+}
+
+.scrollable::-webkit-scrollbar-track {
+  background-color: #0000002a;
+  border-radius: 100px;
+}
+
+.scrollable::-webkit-scrollbar-thumb {
+  background-color: #ffe54c;
+  border-radius: 100px;
+}
+footer{
+  background-color: aliceblue;
+}
