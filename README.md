@@ -6,4 +6,4 @@ Status: incomplete.
 
 Tools: React, HTML, CSS, JS, Netlify.
 
-Visit the site: https://remarkable-lollipop-2a6fba.netlify.app
+Visit the site: https://todo-list-hw.netlify.app/
